@@ -1,0 +1,70 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-surface: #0f131b;
+    --color-surface-dim: #0f131b;
+    --color-surface-bright: #353941;
+    --color-surface-container-lowest: #0a0e15;
+    --color-surface-container-low: #181c23;
+    --color-surface-container: #1c2027;
+    --color-surface-container-high: #262a32;
+    --color-surface-container-highest: #31353d;
+    --color-on-surface: #dfe2ed;
+    --color-on-surface-variant: #b9cacb;
+    --color-outline: #849495;
+    --color-outline-variant: #3a494b;
+    --color-primary: #e0fdff;
+    --color-on-primary: #00373a;
+    --color-primary-container: #00f2fe;
+    --color-on-primary-container: #006a70;
+    --color-primary-fixed: #6ff6ff;
+    --color-primary-fixed-dim: #00dce6;
+    --color-secondary: #4edea3;
+    --color-on-secondary: #003824;
+    --color-secondary-container: #00a572;
+    --color-tertiary: #f1f8ff;
+    --color-tertiary-fixed: #c4e7ff;
+    --color-tertiary-fixed-dim: #7bd0ff;
+    --color-error: #ffb4ab;
+    --color-background: #0f131b;
+  }
+
+  body {
+    background-color: #0f131b;
+    color: #dfe2ed;
+    font-family: 'Inter', sans-serif;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+  }
+}
+
+.font-display {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.font-body {
+  font-family: 'Inter', sans-serif;
+}
+
+.font-mono, .font-label-code {
+  font-family: 'JetBrains Mono', monospace;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #0a0e15;
+}
+::-webkit-scrollbar-thumb {
+  background: #262a32;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #3a494b;
+}
